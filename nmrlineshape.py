@@ -201,7 +201,7 @@ def _alderman_interpolation(sigma, bins, N=32):
             #append
             tmp = np.sqrt( i**2 + j**2 + k**2 )
             lmn[i,j] = np.array([i,j,k])/tmp
-            R = tmp/N #R[i,j] = tmp/N
+            R = tmp/N
             weights[i,j] = 1/R**3
 
     #calculate (lmn) sigma (lmn)^T
@@ -255,7 +255,7 @@ def _alderman_interpolation(sigma, bins, N=32):
             #now the ten cases
             a = _ten_cases(flow, fhigh, *tentF)
             #weights following eq. 6 of Alderman et al.
-            weight = (tentF * np.array([ weights[idx] for idx in cornerIndices[iTriangle] ])).sum()
+            weight = np.array([ weights[idx] for idx in cornerIndices[iTriangle] ]).mean()
 
             intensities[iBin] += a * weight
 
