@@ -32,7 +32,7 @@ class NMRLineshape(object):
         in the Alderman-Powder-Averaging Routine (N in Alderman et al.).
     """
 
-    def __init__(self, vectors, sigma_parallel=1.0, sigma_perpendicular=0.0,
+    def __init__(self, vectors, sigma_parallel=0.0, sigma_perpendicular=1.0,
                  nBins=1000, nIntersections=32):
         from copy import deepcopy
 
@@ -260,6 +260,6 @@ def _alderman_interpolation(sigma, bins, N=32):
             intensities[iBin] += a * weight
 
     #normalize intensities
-    intensities /= np.linalg.norm(intensities)
+    intensities /= (np.sum(intensities) / len(intensities))
 
     return intensities
