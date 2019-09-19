@@ -1,13 +1,20 @@
+[![DOI](https://zenodo.org/badge/203989389.svg)](https://zenodo.org/badge/latestdoi/203989389)
+
 # NMRLineshape
 
-Implements the calculation of NMR lineshapes for linear molecules (e.g. CO2) as presented in Bon et al. ([10.1016/j.micromeso.2015.02.042](http://dx.doi.org/10.1016/j.micromeso.2015.02.042), code and theory by E. Eisbein, check also his PhD Thesis). You should cite the paper and this repo (DOI via Zenodo available soon) if you're publishing data obtained using this code.
-
-Please do contact me with questions or use the GitHub features to contribute.
+Implements the calculation of NMR lineshapes for anisotropic, linear molecules (e.g. CO<sub>2</sub>) as presented in Bon et al. ([10.1016/j.micromeso.2015.02.042](http://dx.doi.org/10.1016/j.micromeso.2015.02.042)). The original code and theory by E. Eisbein are published in his [PhD Thesis](http://d-nb.info/1109807481) (only in German and not available online). *Working on my own publication including a description of the methodology at the moment.*
 
 ## Requirements:
 
 * Python Version >3.6 (any should be fine)
 * Numpy (any recent version should be fine)
+
+## Citing:
+You should cite the [original paper](http://dx.doi.org/10.1016/j.micromeso.2015.02.042) and my paper (*working on it, use the Zenodo Link [10.5281/zenodo.3450684](https://doi.org/10.5281/zenodo.3450684) until then*) if you're publishing data obtained using this code.
+
+## Contributing:
+
+Please do contact me with questions or use the GitHub features to contribute.
 
 ## Usage:
 ```python
