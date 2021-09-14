@@ -2,7 +2,7 @@
 
 # NMRLineshape
 
-Implements the calculation of NMR lineshapes for anisotropic, linear molecules (e.g. CO<sub>2</sub>) as presented in Bon et al. ([10.1016/j.micromeso.2015.02.042](http://dx.doi.org/10.1016/j.micromeso.2015.02.042)). The original code and theory by E. Eisbein are published in his [PhD Thesis](http://d-nb.info/1109807481) (only in German and not available online). *Working on my own publication including a description of the methodology at the moment.*
+Implements the calculation of NMR lineshapes for anisotropic, linear molecules (e.g. CO<sub>2</sub>) as presented in Bon et al. ([10.1016/j.micromeso.2015.02.042](http://dx.doi.org/10.1016/j.micromeso.2015.02.042)). The original code and theory by E. Eisbein are published in his [PhD Thesis](http://d-nb.info/1109807481) (only in German and not available online). This implementation and an example application are described in detail in my paper [10.1002/cphc.202100489](https://doi.org/10.1002/cphc.202100489).
 
 ## Requirements:
 
@@ -10,7 +10,7 @@ Implements the calculation of NMR lineshapes for anisotropic, linear molecules (
 * Numpy (any recent version should be fine)
 
 ## Citing:
-You should cite the [original paper](http://dx.doi.org/10.1016/j.micromeso.2015.02.042) and my paper (*working on it, use the Zenodo Link [10.5281/zenodo.3450684](https://doi.org/10.5281/zenodo.3450684) until then*) if you're publishing data obtained using this code.
+You should cite [my paper](https://doi.org/10.1002/cphc.202100489) and the [original paper](http://dx.doi.org/10.1016/j.micromeso.2015.02.042) if you're publishing data obtained using this code.
 
 ## Contributing:
 
